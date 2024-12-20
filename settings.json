@@ -1,0 +1,86 @@
+{
+  "telemetry.telemetryLevel": "off",
+  "gitlens.telemetry.enabled": false,
+
+  "window.menuBarVisibility": "toggle",
+
+  "explorer.compactFolders": false,
+  "explorer.enableDragAndDrop": false,
+
+  "extensions.ignoreRecommendations": true,
+
+  "breadcrumbs.icons": false,
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showFiles": false,
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showFields": false,
+  "breadcrumbs.showClasses": false,
+  "breadcrumbs.showMethods": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showFunctions": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showConstructors": false,
+
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "'JetBrains Mono Fira Code'",
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.wordWrap": "bounded",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 100,
+  "editor.rulers": [100],
+  "editor.dragAndDrop": false,
+  "editor.formatOnSave": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.enabled": true,
+  "editor.glyphMargin": false,
+  "editor.scrollbar.verticalScrollbarSize": 5,
+
+  "scm.diffDecorationsGutterAction": "none",
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  "prettier.singleQuote": true,
+
+  "workbench.activityBar.location": "top",
+  "workbench.editor.showTabs": "none",
+  "workbench.tree.indent": 20,
+  "workbench.startupEditor": "none",
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.iconTheme": "catppuccin-perfect-sequoia",
+  "workbench.colorTheme": "Monokai",
+
+  "debug.toolBarLocation": "hidden",
+  "debug.focusEditorOnBreak": false,
+  "debug.focusWindowOnBreak": false,
+  "debug.showBreakpointsInOverviewRuler": false,
+  "debug.showInlineBreakpointCandidates": false,
+
+  "terminal.external.linuxExec": "",
+  "terminal.explorerKind": "external",
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.minimumContrastRatio": 5,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
