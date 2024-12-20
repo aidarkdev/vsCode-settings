@@ -43,14 +43,6 @@
   "editor.glyphMargin": false,
   "editor.scrollbar.verticalScrollbarSize": 5,
 
-  "scm.diffDecorationsGutterAction": "none",
-  "html.autoClosingTags": true,
-  "javascript.autoClosingTags": true,
-  "typescript.autoClosingTags": true,
-  "prettier.semi": false,
-  "prettier.trailingComma": "none",
-  "prettier.singleQuote": true,
-
   "workbench.activityBar.location": "top",
   "workbench.editor.showTabs": "none",
   "workbench.tree.indent": 20,
@@ -74,6 +66,16 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "monospace",
   "terminal.integrated.defaultProfile.linux": "bash",
+
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  "prettier.singleQuote": true,
+
+  "scm.diffDecorationsGutterAction": "none",
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  
   "[json]": {
     "editor.quickSuggestions": {
       "strings": true
