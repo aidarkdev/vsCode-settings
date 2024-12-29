@@ -55,6 +55,7 @@
 
   "workbench.activityBar.location": "top",
   "workbench.editor.showTabs": "none",
+  "workbench.editor.enablePreview": false,
   "workbench.tree.indent": 20,
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "always",
