@@ -4,6 +4,8 @@
 
   "window.menuBarVisibility": "toggle",
 
+  "security.workspace.trust.untrustedFiles": "open",
+
   "explorer.compactFolders": false,
   "explorer.enableDragAndDrop": false,
 
@@ -29,7 +31,7 @@
   "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,
-  "editor.fontSize": 12,
+  "editor.fontSize": 13,
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.wordWrap": "bounded",
   "editor.wrappingIndent": "same",
@@ -43,9 +45,9 @@
   "editor.glyphMargin": false,
   "editor.scrollbar.verticalScrollbarSize": 5,
 
-  "files.eol": "\n",
-
   "scm.diffDecorationsGutterAction": "none",
+  "scm.diffDecorations": "none",
+
   "html.autoClosingTags": true,
   "javascript.autoClosingTags": true,
   "typescript.autoClosingTags": true,
@@ -60,7 +62,7 @@
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "always",
   "workbench.iconTheme": "catppuccin-perfect-sequoia",
-  "workbench.colorTheme": "GitHub Light High Contrast",
+  "workbench.colorTheme": "Adonis+ Mirage",
 
   "debug.toolBarLocation": "hidden",
   "debug.focusEditorOnBreak": false,
@@ -77,13 +79,15 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "monospace",
   "terminal.integrated.defaultProfile.linux": "bash",
+
+  "files.eol": "\n",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
   "[json]": {
     "editor.quickSuggestions": {
       "strings": true
     },
     "editor.suggest.insertMode": "replace"
-  },
-  "files.associations": {
-    "*.css": "tailwindcss"
   }
 }
