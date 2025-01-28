@@ -4,6 +4,8 @@ extensions
 - eslint
 - ES7+ React/Redux/React-Native snippets
 - Fluent Icons
+- catppuccin theme https://github.com/catppuccin/vscode
+- Tokyo Night theme https://github.com/tokyo-night/tokyo-night-vscode-theme
 
 
 fonts:
